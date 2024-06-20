@@ -1,6 +1,7 @@
 const removeShorts = () => {
   const shorts = document.getElementById("content");
-  shorts.remove();
+
+  if (shorts) shorts.remove();
 };
 
 window.addEventListener("load", removeShorts);
