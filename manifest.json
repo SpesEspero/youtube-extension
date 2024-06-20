@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Youtube Recommendation Remover",
+  "version": "1.0",
+  "description": "Remove Youtube Recommendations",
+  "content_scripts": [
+    {
+      "js": ["script.js"],
+      "matches": ["https://www.youtube.com/*"]
+    }
+  ]
+}
